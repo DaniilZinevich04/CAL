@@ -1,13 +1,21 @@
 import Home.work.CalcWithOperator;
 import Home.work.Calcwithextend;
+import Home.work.ICalc;
 
-public class calcwithcounter extends CalcWithOperator {
+public class calcwithcounter extends CalcWithOperator implements ICalc {
 
     private double counter;
 private CalcWithOperator calc1;
 private Calcwithextend calc2;
+    private ICalc calc;
 
 
+public calcwithcounter(ICalc name ){
+   this.calc = name ;
+
+}
+
+  /* конструктор
   public calcwithcounter(CalcWithOperator calc){
         this.calc1 =calc;
   }
@@ -24,6 +32,6 @@ private Calcwithextend calc2;
         return calc2.abs(a);
     }
 
-    
+*/
 
 }

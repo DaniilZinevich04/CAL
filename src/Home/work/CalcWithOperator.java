@@ -1,6 +1,6 @@
 package Home.work;
 
-public class CalcWithOperator {
+public class CalcWithOperator implements ICalc{
 
 
    /*
@@ -11,12 +11,12 @@ public CalcWithOperator (){
     public CalcWithOperator(int counter3) {
         this.counter3 = counter3;
     }
-    */
+
 
     public int plus(int a, int b) {
         return a + b;
     }
-
+*/
     public int minus(int a, int b) {
         return a - b;
 
@@ -36,5 +36,7 @@ public CalcWithOperator (){
     }
     public static int se(){
         return 22;
+
     }
+
 }

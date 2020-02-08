@@ -9,17 +9,20 @@ public class Main {
         calculator.counter3 = 0;
         */
         Calcwithextend calc2 = new Calcwithextend();
-        int a =calc2.plus(12,5);
+        int a =calculator.plus(12,5);
         double b = calc2.divide(24,2);
         System.out.println((calc2.divide(12,24)));
         System.out.println(calc2.abs(14));
-        System.out.println(calc2.plus(14 , 12));
+        System.out.println(calculator.plus(14 , 12));
         System.out.println(b);
         System.out.println(CalcWithOperator.se());
         System.out.println(calc2.se());
+     /*
        while (1 ==1){
            System.out.println("Говори правду");
        }
+*/      ICalc  calcUni = new CalcWithOperator();
+        calcUni = new Calcwithextend();
 
 
     }
