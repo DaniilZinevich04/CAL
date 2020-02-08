@@ -1,8 +1,9 @@
 import Home.work.CalcWithOperator;
 import Home.work.Calcwithextend;
+import Home.work.ICal;
 import Home.work.ICalc;
 
-public class calcwithcounter extends CalcWithOperator implements ICalc {
+public class calcwithcounter extends CalcWithOperator implements ICalc, ICal {
 
     private double counter;
 private CalcWithOperator calc1;
