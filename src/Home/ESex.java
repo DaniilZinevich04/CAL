@@ -1,4 +1,4 @@
-package Home.work;
+package Home;
 
 public enum ESex {
     MALE,
