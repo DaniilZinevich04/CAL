@@ -1,4 +1,4 @@
-package Home;
+package Massenger;
 
 public class Person {
     private String nick;

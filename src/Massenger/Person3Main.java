@@ -1,4 +1,4 @@
-package Home;
+package Massenger;
 
 public class Person3Main {
     public static void main(String[] args) {
