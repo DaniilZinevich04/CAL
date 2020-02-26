@@ -1,5 +1,10 @@
 package Home.Shipping;
 
-public class Car {
+import java.util.Scanner;
+
+public class Car extends Spare {
+    Scanner ConsolCar = new Scanner(System.in);
+    double A = ConsolCar.nextDouble();
 
 }
+
