@@ -14,20 +14,43 @@ public class ListMain {
         words.add("4");
         words.add("5");
 
-        Iterator<String> iter = words.iterator();
-
-        while(iter.hasNext()) {
-            System.out.println(iter.next());
-
-        }
-
-        //System.out.println("firs word is " + words.get(0));
-        //words.remove(0);//удаление элемента
-        //System.out.println("first word after remove is " + words.get(0));
-       // System.out.println(words.iterator());
 
 
 
+//        for (int i=1;i<words.size();i++){
+//            if (i==1){
+//                words.remove(0);
+//
+//            }
+//            System.out.println(words.get(i));
+//
+//        }
+//
+//        int iter=0;
+//        for (String word:words){
+//            if (iter == 1){
+//                words.remove(word);
+//            }
+//            System.out.println(word);
+//            iter++;
+//        }
+//
+
+
+//        Iterator<String> iter = words.iterator();
+//
+//        while(iter.hasNext()) {
+//            System.out.println(iter.next());
+//
+//        }
+//        words.remove(0);
+//
+//        System.out.println("firs word is " + words.get(0));
+//        words.remove(0);//удаление элемента
+//        System.out.println("first word after remove is " + words.get(0));
+//       System.out.println(words.iterator());
+//
+//
     }
 
 }
